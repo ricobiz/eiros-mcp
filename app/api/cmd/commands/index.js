@@ -3,7 +3,7 @@ import readFile from "./ReadFile";
 import pushFile from "./PushFile";
 import getStatus from "./GetStatus";
 import sendRadioMessage from "./Sendradiomessage";
-import queueTrack from "./Queuetrack";
+import queueTrack from "./Quetrack";
 import log from "./Log";
 import tts from "./tts";
 
