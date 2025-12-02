@@ -1,4 +1,15 @@
 {
   "version": 2,
-  "framework": "nextjs"
+  "functions": {
+    "api/command.js": {
+      "runtime": "nodejs18.x"
+    },
+    "api/proxy.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    { "src": "/cmd", "dest": "/api/command.js" },
+    { "src": "/proxy", "dest": "/api/proxy.js" }
+  ]
 }
