@@ -1,13 +1,17 @@
 {
   "name": "eiros-mcp",
   "version": "1.0.0",
-  "description": "Eiros MCP server running on Vercel",
+  "description": "Eiros MCP toolset",
   "server": {
     "commands": [
-      {
-        "name": "cmd",
-        "endpoint": "/api/cmd"
-      }
+      { "name": "pushFile", "endpoint": "/api/cmd" },
+      { "name": "readFile", "endpoint": "/api/cmd" },
+      { "name": "listFiles", "endpoint": "/api/cmd" },
+      { "name": "getStatus", "endpoint": "/api/cmd" },
+      { "name": "sendRadioMessage", "endpoint": "/api/cmd" },
+      { "name": "queueTrack", "endpoint": "/api/cmd" },
+      { "name": "tts", "endpoint": "/api/cmd" },
+      { "name": "log", "endpoint": "/api/cmd" }
     ]
   }
 }
