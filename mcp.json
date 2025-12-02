@@ -1,0 +1,13 @@
+{
+  "name": "eiros-mcp",
+  "version": "1.0.0",
+  "description": "Eiros MCP server running on Vercel",
+  "server": {
+    "commands": [
+      {
+        "name": "cmd",
+        "endpoint": "/api/cmd"
+      }
+    ]
+  }
+}
